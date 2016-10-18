@@ -21,6 +21,7 @@
     // call the resizeCanvas() function each time
     // the window is resized.
     window.addEventListener('resize', resizeCanvas, false);
+    window.addEventListener('orientationchange', resizeCanvas, false);
     startTime = (new Date()).getTime();
     // Draw canvas border for the first time.
     resizeCanvas();
