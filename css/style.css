@@ -62,5 +62,10 @@ a:active {
 #blueLogo{
   display: inline-block;
   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
   line-height: 16px;
 }
