@@ -12,7 +12,7 @@ html, body {
 /*font-family: 'Lato', sans-serif;
 font-family: 'Muli', sans-serif;
 font-family: 'Noto Sans', sans-serif;*/
-div#info{
+#info{
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 32px;
@@ -38,17 +38,29 @@ a:visited {
 /* mouse over link */
 a:hover {
     text-decoration: none;
-    color: '#4a83ff';
+    color: #4a83ff;
 }
 
 /* selected link */
 a:active {
     text-decoration: none;
-    color: '#4a83ff';
+    color: #4a83ff;
 }
 
-#info img{
+#links img{
   /*width: 5%;*/
   width:60px;
   height: auto;
+}
+
+/*#blueLogo {
+  height: 24px;
+  padding-left: 2px;
+  padding-right: 6px;
+}*/
+
+#blueLogo{
+  display: inline-block;
+  transform: rotate(180deg);
+  line-height: 16px;
 }
