@@ -27,8 +27,8 @@ function setup() {
 	songInput.onchange = onSongSelected;
 	songAudio.addEventListener('ended', playNextSong);
 
-	document.body.style.backgroundColor = 'grey';
-	document.getElementById('songInput').style.color = 'grey';
+	document.body.style.backgroundColor = 'darkgrey';
+	//document.getElementById('songInput').style.color = 'grey';
 	paper.setup(document.getElementById('canvas'));
 
 	createParticles();
