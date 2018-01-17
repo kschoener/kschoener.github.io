@@ -9,7 +9,9 @@ var
 var nameP = document.getElementById('name');
 
 var lineColor = '#7a7776';
+// var lineColor = 'rgba(122,119,118,0.8)';
 var ballColor = 'lightblue';
+// var ballColor = 'rgba(173,216,230,1)';
 var balls = [];
 
 function initialize() {
